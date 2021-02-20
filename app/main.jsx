@@ -12,8 +12,6 @@ const StyledTree1 = styled(TreeView)`
 
 class AgendaViewer extends React.Component {
   render() {
-    //let agendaContent = require("./agenda.json");
-
     return (
       <StyledTree1
         data={agendaContent2.TOC}
