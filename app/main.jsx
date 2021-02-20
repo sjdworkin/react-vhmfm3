@@ -1,6 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import styled from "styled-components";
+import agendaContent2 from "./agenda.json"
 
 import { TreeView } from "@progress/kendo-react-treeview";
 
@@ -11,11 +12,11 @@ const StyledTree1 = styled(TreeView)`
 
 class AgendaViewer extends React.Component {
   render() {
-    let agendaContent = require("./agenda.json");
+    //let agendaContent = require("./agenda.json");
 
     return (
       <StyledTree1
-        data={agendaContent.TOC}
+        data={agendaContent2.TOC}
         textField="Title"
         expandIcons={true}
         onExpandChange={this.onExpandChange}
