@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import styled from 'styled-components'
+import styled from "styled-components";
 
 import { TreeView } from "@progress/kendo-react-treeview";
 
@@ -24,10 +24,15 @@ const tree = [
   }
 ];
 
+const StyledTree1 = styled(TreeView)`
+  background-color: yellow;
+  font-size: 1.5em;
+`;
+
 class AgendaViewer extends React.Component {
   render() {
     return (
-      <TreeView
+      <StyledTree1
         data={tree}
         expandIcons={true}
         onExpandChange={this.onExpandChange}
