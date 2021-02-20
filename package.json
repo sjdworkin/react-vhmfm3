@@ -1,0 +1,24 @@
+{
+  "name": "xw6cum--run",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@progress/kendo-licensing": "1.1.3",
+    "@progress/kendo-react-animation": "4.4.0",
+    "@progress/kendo-react-treeview": "4.4.0",
+    "prop-types": "15.7.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-is": ">= 16.8.0",
+    "styled-components": "^5.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
